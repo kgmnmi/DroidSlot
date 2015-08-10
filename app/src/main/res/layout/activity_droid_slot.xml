@@ -4,14 +4,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".DroidSlotActivity"
-    android:id="@+id/">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/droidimageid1"
-        android:src="@drawable/droid_front"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+    android:id="@+id/droidimageid1">
 
 </RelativeLayout>

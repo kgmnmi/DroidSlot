@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 
 public class DroidSlotActivity extends ActionBarActivity {
@@ -12,6 +13,8 @@ public class DroidSlotActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_droid_slot);
+        ImageView droidImage1 = (ImageView) this.findViewById(R.id.dr);
+        droidImage1.setImageResource(R.drawable.droid_back);
     }
 
     @Override
