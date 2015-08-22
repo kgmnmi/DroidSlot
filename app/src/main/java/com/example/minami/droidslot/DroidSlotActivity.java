@@ -1,12 +1,11 @@
-package com.example.sample.droidslot;
+package com.example.minami.droidslot;
 
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-public class DroidSlotActivity extends ActionBarActivity {
+public class DroidSlotActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

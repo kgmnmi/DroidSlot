@@ -1,4 +1,4 @@
-package com.example.sample.droidslot;
+package com.example.minami.droidslot;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
